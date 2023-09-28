@@ -5,7 +5,7 @@ tasks:
       echo "Installing git-log--graph..."
       wget https://open-vsx.org/api/phil294/git-log--graph/0.1.12/file/phil294.git-log--graph-0.1.12.vsix
       chmod 777 phil294.git-log--graph-0.1.12.vsix 
-      code --install-extension phil294.git-log--graph-0.1.12.vsix
+      code --install-extension /workspace/.vscode-remote/extensions/phil294.git-log--graph-0.1.12.vsix
   - name: terraform
     before: |
       source ./bin/install_terraform_cli
