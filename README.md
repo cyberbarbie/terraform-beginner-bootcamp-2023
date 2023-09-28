@@ -1,4 +1,4 @@
-# Terraform Beginner Bootcamp 2023
+# Terraform Studies 2023
 
 Welcome to the Terraform Beginner Bootcamp for 2023! In this guide, we'll walk you through the necessary steps to set up your environment and get started with Terraform.
 
