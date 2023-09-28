@@ -57,4 +57,16 @@ Using a Bash script for Terraform CLI installation offers several advantages:
 
 By following these steps and utilizing the provided Bash script, you'll have a smooth experience setting up Terraform for your projects.
 
+### Global Env Vars
+Set env vars in bash profile 
+
+### Persisting Env Vars in Gitpod 
+Store them in Gitpod Secrets Storage 
+```
+gp env HELLO='world'
+```
+
+All future workspaces launched will set env vars for all bash terminals 
+
+
 Happy Terraforming!
