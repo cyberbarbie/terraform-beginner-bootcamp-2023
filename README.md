@@ -68,5 +68,24 @@ gp env HELLO='world'
 
 All future workspaces launched will set env vars for all bash terminals 
 
+### AWS CLI Installation 
+AWS CLI is installed for the project via bash script [`./bin/install_aws_cli.sh`](./bin/install_aws_cli.sh)
+
+[Link to docs](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+
+Check if AWS credentials is configured correctly by running:
+```
+aws sts get-caller-identity 
+```
+[Link to set AWS CLI Env Vars](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html)
+
+If successful, you should see a JSON payload 
+```
+{
+    "UserId": "AIDA56Y12323423",
+    "Account": "953213181",
+    "Arn": "arn:aws:iam::953213181:user/minka-kelly"
+}
+```
 
 Happy Terraforming!
