@@ -1,3 +1,13 @@
+terraform {
+  cloud {
+    organization = "cyberbarbie"
+
+    workspaces {
+      name = "terra-casa-lotus"
+    }
+  }
+}
+
 # we can only have on TF block 
 terraform {
   required_providers {
