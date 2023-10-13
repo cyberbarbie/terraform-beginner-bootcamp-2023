@@ -88,4 +88,23 @@ If successful, you should see a JSON payload
 }
 ```
 
+### Terraform Init, Plan, && Apply
+### Terraform Regisrtry
+Terraform sources their providers and modules from the registry which is located at [registry.terraform.io](https://registry.terraform.io).
+
+- **Provider** - An interface to interact with APIs to create resources in terraform like Hashicorp Random or AWS s3
+- **Module** - A way to refactor or make large amounts of terraform code modular, portable and sharable
+
+`Terraform Init` - Initializes a Terraform project to dowbload binaries for terraform providers 
+`Terraform Plan` - Stage changes; generates a changset about the state of our infra 
+``
+`Terraform Apply` - Apply Changes 
+
+`terraform apply --auto-approve` - automatically approve changes 
+
+Terraform state - When you run terraform apply it generates a state file to provider such as providers and resource information; do not fuck with it 
+
+`.terraform.tfstate.backup` - Previous state file state
+`.terraform` directory contains binaries 
+
 Happy Terraforming!
